@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Wedding Invitation</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fatima ❤️ Sajid Wedding</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="overlay"></div>
+  <audio id="bgMusic" loop>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
 
-    <div class="container">
-        <h2 class="bismillah">بِسْمِ ٱللَّٰهِ</h2>
+  <div class="main-container">
 
-        <h1 class="title">Wedding Invitation</h1>
+    <div class="card">
 
-        <p class="invite-text">
-            With the blessings of Allah,<br>
-            we cordially invite you to the Nikah ceremony of
-        </p>
+      <div class="moon">☪</div>
 
-        <h1 class="names">
-            Sheik Fatima <span>&</span> Sheik Sajid
-        </h1>
+      <h2 class="arabic">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</h2>
 
-        <p class="details">
-            On Sunday, 17 May 2026<br>
-            At 10:00 AM (IST)
-        </p>
+      <p class="top-text">Together with family & friends</p>
 
-        <p class="venue">
-            Sri Narasimharaju Function Hall<br>
-            Balajipeta, Bommuru, Rajahmundry
-        </p>
+      <h1 class="main-title">Wedding Celebration</h1>
 
-        <div id="countdown"></div>
+      <p class="sub-text">
+        No religion when friends gather ❤️ <br>
+        Only food, fun, memories & endless selfies 📸
+      </p>
 
-        <button onclick="playMusic()">🎵 Play Traditional Music</button>
+      <div class="names">
+        <h1>Sheik Fatima</h1>
+        <span>&</span>
+        <h1>Sheik Sajid</h1>
+      </div>
 
-        <p class="footer">
-            "May Allah bless this union with love, mercy, and barakah."
-        </p>
-    </div>
+      <div class="details-box">
 
-    <audio id="bg-music">
-        <source src="song.mp3" type="audio/mpeg">
-    </audio>
+        <div class="detail-item">
+          <h3>📅 Date</h3>
+          <p>17 May 2026 (Sunday)</p>
+        </div>
 
-    <script src="script.js"></script>
-</body>
+        <div class="detail-item">
+          <h3>⏰ Time</h3>
+          <p>10:00 AM IST</p>
+        </div>
+
+        <div class="detail-item">
+          <h3>📍 Venue</h3>
+          <p>
+            Sri Narasimharaju Function Hall,<br>
+            Balajipeta, Bommuru,<br>
+            Rajahmundry
+          </p>
+        </div>
+
+      </div>
+
+      <div id="countdown"></div>
+
+      <div class="button-group">
+        <button onclick="playMusic()">🎵 Play Music</button>
 </html>
