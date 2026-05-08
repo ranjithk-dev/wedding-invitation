@@ -1,145 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fatima ❤️ Sajid Wedding</title>
-
-  <link rel="stylesheet" href="style.css" />
-
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
-
-  <audio id="bgMusic" loop>
-    <source src="song.mp3" type="audio/mpeg">
-  </audio>
-
-  <div class="main-container">
-
-    <div class="card">
-
-      <div class="moon">☪</div>
-
-      <h2 class="arabic">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</h2>
-
-      <p class="top-text">Together with family & friends</p>
-
-      <h1 class="main-title">Wedding Celebration</h1>
-
-      <p class="sub-text">
-        No religion when friends gather ❤️ <br>
-        Only food, fun, memories & endless selfies 📸
-      </p>
-
-      <div class="names">
-        <h1>Sheik Fatima</h1>
-        <span>&</span>
-        <h1>Sheik Sajid</h1>
+        <p>Days</p>
       </div>
 
-      <div class="details-box">
-
-        <div class="detail-item">
-          <h3>📅 Date</h3>
-          <p>17 May 2026 (Sunday)</p>
-        </div>
-
-        <div class="detail-item">
-          <h3>⏰ Time</h3>
-          <p>10:00 AM IST</p>
-        </div>
-
-        <div class="detail-item">
-          <h3>📍 Venue</h3>
-          <p>
-            Sri Narasimharaju Function Hall,<br>
-            Balajipeta, Bommuru,<br>
-            Rajahmundry
-          </p>
-        </div>
-
+      <div class="time-box">
+        <h2 id="hours">00</h2>
+        <p>Hours</p>
       </div>
 
-      <div id="countdown"></div>
-
-      <div class="button-group">
-        <button onclick="playMusic()">🎵 Play Music</button>
-
-        <a href="https://maps.google.com/?q=Sri+Narasimharaju+Function+Hall+Balajipeta+Bommuru+Rajahmundry" target="_blank">
-          <button>📍 Open Google Maps</button>
-        </a>
+      <div class="time-box">
+        <h2 id="minutes">00</h2>
+        <p>Minutes</p>
       </div>
 
-      <h2 class="memes-title">🔥 Telugu Wedding Meme Zone 🔥</h2>
+      <div class="time-box">
+        <h2 id="seconds">00</h2>
+        <p>Seconds</p>
+      </div>
+    </div>
 
-      <div class="memes-section">
+    <div class="details-card">
 
-        <div class="meme-card">
-          <img src="https://i.imgflip.com/1bij.jpg" alt="meme">
-          <h3>😎 Katamarayudu Friends Entry</h3>
-          <p>
-            “Anna pelli antey mass entry undali ra!” 🔥
-          </p>
-        </div>
-
-        <div class="meme-card">
-          <img src="https://i.imgflip.com/26am.jpg" alt="meme">
-          <h3>🍗 Real Friends Priority</h3>
-          <p>
-            “Nikah tarvata biryani eppudu start avthundi bro?” 😂
-          </p>
-        </div>
-
-        <div class="meme-card">
-          <img src="https://i.imgflip.com/30b1gx.jpg" alt="meme">
-          <h3>📸 Cousins Squad</h3>
-          <p>
-            “Pelli ki vacham... reels shoot chesi viral chestham!” 🎥
-          </p>
-        </div>
-
-        <div class="meme-card">
-          <img src="https://i.imgflip.com/2fm6x.jpg" alt="meme">
-          <h3>💃 Dance Floor Warning</h3>
-          <p>
-            “DJ start ayithey mamulga undadhu!” 🕺
-          </p>
-        </div>
-
-        <div class="meme-card">
-          <img src="https://i.imgflip.com/3oevdk.jpg" alt="meme">
-          <h3>🔥 Anime Wedding Arc</h3>
-          <p>
-            “This wedding arc officially better than anime final season!” ⚔️
-          </p>
-        </div>
-
-        <div class="meme-card">
-          <img src="https://i.imgflip.com/1ur9b0.jpg" alt="meme">
-          <h3>😂 Telugu Relatives Be Like</h3>
-          <p>
-            “Next mee turn eppudu?” 😭
-          </p>
-        </div>
-
+      <div class="detail">
+        <h4>📅 Date</h4>
+        <p>17 May 2026 (Sunday)</p>
       </div>
 
-      <div class="quote-box">
+      <div class="detail">
+        <h4>⏰ Time</h4>
+        <p>10:00 AM IST</p>
+      </div>
+
+      <div class="detail">
+        <h4>📍 Venue</h4>
         <p>
-          “May Allah bless this beautiful union with endless love,
-          peace, laughter & barakah.” ✨
+          Sri Narasimharaju Function Hall,<br>
+          Balajipeta, Bommuru,<br>
+          Rajahmundry
         </p>
       </div>
 
-      <footer>
-        Made with ❤️ for friends, family & unforgettable memories.
-      </footer>
-
     </div>
 
-  </div>
+    <div class="dialogue-box">
+      <p>
+        “Raakapothe hurt avthanu...<br>
+        Vacchi dance cheyakapothe remove chestha 😤🔥”
+      </p>
+    </div>
 
-<script src="script.js"></script>
+    <button id="musicBtn">🎵 Play Celebration Music</button>
+
+    <audio id="bgMusic" loop>
+      <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
