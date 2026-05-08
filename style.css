@@ -1,37 +1,70 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #0f0f0f;
-  color: white;
-  overflow-x: hidden;
-  min-height: 100vh;
+.detail {
+  margin-bottom: 25px;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background:
-    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-    url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1400&auto=format&fit=crop');
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
+.detail:last-child {
+  margin-bottom: 0;
 }
 
-.main-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 15px;
+.detail h4 {
+  color: #facc15;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
 }
 
-.card {
-  width: 100%;
+.detail p {
+  color: #e5e7eb;
+  line-height: 1.8;
+}
+
+.dialogue-box {
+  margin-top: 35px;
+  background: rgba(250,204,21,0.1);
+  border: 1px solid rgba(250,204,21,0.3);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+.dialogue-box p {
+  line-height: 1.8;
+  color: #fef3c7;
+}
+
+button {
+  margin-top: 30px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 50px;
+  background: #facc15;
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+@media(max-width: 768px) {
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  .time-box {
+    width: 90px;
+    height: 90px;
+  }
+
+  .time-box h2 {
+    font-size: 1.5rem;
+  }
+
 }
